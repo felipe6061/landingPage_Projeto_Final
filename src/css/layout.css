@@ -7,7 +7,7 @@
 }
 
 
-/* sessao about - SOBRE*/
+/* sessao hero*/
 .about{
     background-color:  #006B92;
     overflow: hidden;
@@ -33,10 +33,7 @@
 }
 
 .about-description{
-    h2{
-            gap: 14px;
-
-        
+    h2{        
         font-size: 29px;
         margin-bottom: 24px;
          text-align: center;
@@ -52,9 +49,24 @@
     }
 
     strong{
-        color: #120808;
+        color: #1ab4d0;
 
     }
+
+
+    .course-info {
+        max-width: 800px;      
+        margin: 0 auto;        
+        padding: 0 20px;      
+    }
+
+    .course-info p {
+        margin-bottom: 16px;   
+        line-height: 1.7;      
+        text-align: justify;
+    }
+
+
 }
 
 /* fim sessao about - SOBRE*/
@@ -272,6 +284,7 @@
 }
 
 .empresa-description{
+
     h2{
         font-size: 29px;
         margin-bottom: 24px;
@@ -279,15 +292,22 @@
     }
 
     p{
+        
         margin-bottom: 14px;
         line-height: 150%;
          text-align: justify;
 
-    
+        
+    }
 
+
+
+}
+
+  strong{
+        color: #1ab4d0;
 
     }
-}
 
 .texto-direita {
   text-align: justify;
