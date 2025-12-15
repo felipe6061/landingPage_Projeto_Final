@@ -297,55 +297,6 @@
 
 
 
-/* sessao contatos*/
-.contatos{
-    background-color:  #FF3131;
-    overflow: hidden;
-    color:  #140b0bd7;
-}
-
-
-.contatos-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    padding: 34px 14px 64px 14px;
-
-    img{
-       max-width: 570px;
-    }
-}
-
-
-.contatos-content div{
-  flex: 1;  
-}
-
-.contatos-description{
-    h2{
-        font-size: 29px;
-        margin-bottom: 24px;
-         text-align: center;
-         color: #120808;
-    }
-
-    p{
-        margin-bottom: 14px;
-        line-height: 150%;
-        color: #F5F5F5;
-    
-    }
-
-    strong{
-        color: #120808;
-
-    }
-}
-
-/* fim sessao Contatos*/
-
-
 
 
 

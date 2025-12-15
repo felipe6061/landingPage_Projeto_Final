@@ -7,7 +7,7 @@
 }
 
 .footer-container {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -82,7 +82,7 @@
 }
 
 .dev-name {
-    color: #115680;
+    color: #40718f;
     font-weight: 500;
     margin-left: 0.25rem;
 }
@@ -125,7 +125,7 @@
 }
 
 .footer-link:hover {
-    color: #115680;
+    color: #fcb040;
 }
 
 .version {
