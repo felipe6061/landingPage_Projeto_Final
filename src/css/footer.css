@@ -1,0 +1,134 @@
+/* FOOTER STYLES */
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    padding: 2rem 0;
+    
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* TOP SECTION */
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .footer-top {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.footer-logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .footer-logo-section {
+        margin-bottom: 0;
+    }
+}
+
+.logo-wrapper {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.footer-logo {
+    height: 3rem;
+    width: auto;
+    object-fit: contain;
+}
+
+.divider {
+    height: 1.5rem;
+    width: 1px;
+    background-color: #e5e7eb;
+}
+
+.copyright {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+/* DEVELOPERS SECTION */
+.developers {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .developers {
+        text-align: right;
+    }
+}
+
+.dev-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.dev-name {
+    color: #115680;
+    font-weight: 500;
+    margin-left: 0.25rem;
+}
+
+
+
+/* DIVIDER */
+.footer-divider {
+    border-top: 1px solid #e5e7eb;
+    margin: 1.5rem 0;
+    padding-top: 1.5rem;
+}
+
+/* BOTTOM SECTION */
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .footer-bottom {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-link {
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #115680;
+}
+
+.version {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
