@@ -11,11 +11,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="src/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="src/css/footer.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="src/css/navbar.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="src/css/style.css" media="screen" />
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29,34 +31,38 @@
 <body>
 
     <header>
-    <nav class="header" id="navbar">
-        <img class="logo" src="images/logo.png" alt="logo">
-        
-        <ul id="nav_list">
-            <li class="nav-item"><a href="#">SOBRE</a></li>
-            <li class="nav-item"><a href="#">DISCIPLINAS</a></li>
-            <li class="nav-item"><a href="#">CARREIRAS</a></li>
-            <li class="nav-item"><a href="#">CONTATOS</a></li>
-        </ul>
 
-        <button id="mobile_btn">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-    </nav>
+        <nav id="navbar">
+            <img class="logo" src="images/logo.png" alt="logo">
 
-    <div id="mobile_menu">
-        <button class="close-btn">
-            <i class="fa-solid fa-times"></i>
-        </button>
-        
-        <ul id="mobile_nav_list">
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">DISCIPLINAS</a></li>
-            <li><a href="#">CARREIRAS</a></li>
-            <li><a href="#">CONTATOS</a></li>
-        </ul>
-    </div>
-</header>
+            <ul id="nav_list">
+                <li class="nav-item"><a href="#">SOBRE</a></li>
+                <li class="nav-item"><a href="#">DISCIPLINAS</a></li>
+                <li class="nav-item"><a href="#">CARREIRAS</a></li>
+                <li class="nav-item"><a href="#">CONTATOS</a></li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <button class="close-btn">
+                <i class="fa-solid fa-times"></i>
+            </button>
+
+            <ul id="mobile_nav_list">
+                <li class="nav-item"><a href="#">SOBRE</a></li>
+                <li class="nav-item"><a href="#">DISCIPLINAS</a></li>
+                <li class="nav-item"><a href="#">CARREIRAS</a></li>
+                <li class="nav-item"><a href="#">CONTATOS</a></li>
+            </ul>
+        </div>
+    </header>
+
+  
+
 
     <!-- JAVASCRIPT PARA O MENU MOBILE -->
     <script src="/src/javascript/script.js"></script>
@@ -288,35 +294,54 @@
 
 
 <!-- footer - Rodape --> 
-    <footer class="footer">
-            <div class="footer-icons">
+   <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <!-- Logo e direitos autorais -->
+                <div class="footer-logo-section">
+                    <div class="logo-wrapper">
+                        <img src="/images/logo.png" alt="BeMove Fisioterapia" class="footer-logo" />
+                    </div>
+                    <div class="divider"></div>
+                    <div class="copyright">
+                        &copy; 2025 Todos os direitos reservados.
+                    </div>
+                </div>
 
-                    <a href="https://www.instagram.com/divino_barbearia?igsh=cDM4YnF0Z3VxOWk="  target="_blank"  >
-                        <i class="fa-brands fa-instagram fa-2x" /></i>
-                    </a>
-                        
-                    <a href="#"  target="_blank" >
-                        <i class="fa-brands fa-facebook fa-2x" ></i>
-                    </a>
+                <!-- Desenvolvedores -->
+                <div class="developers">
+                    <span class="dev-text">
+                        Desenvolvido por
+                        <span class="dev-name">@felipe6061</span>
+                        <span class="dev-name">@guilbem</span>
 
-                    <a href="#"  target="_blank" >
-                        <i class="fa-brands fa-tiktok fa-2x" ></i>
-                    </a>
+                    </span>
 
+                </div>
             </div>
 
+            <!-- Linha divisória -->
+            <div class="footer-divider"></div>
 
+            <div class="footer-bottom">
+                <!-- Links rápidos -->
+                <div class="footer-links">
+                    <a href="#sobre" class="footer-link">Sobre</a>
+                    <a href="#contato" class="footer-link">Disciplinas</a> 
+                    <a href="#sobre" class="footer-link">Carreiras</a>
+                    <a href="#contato" class="footer-link">Contatos</a>
+                </div>
 
-            <div class="footer-logo">
-                    <img 
-                        src="images/TSIlogo.png" 
-                        alt="logo tsiifb " />
+                <!-- Versão -->
+                <div class="version">
+                    v1.0.0
+                </div>
             </div>
-
-
-        <p>Copyright 2025 | Felipe Ladeira - Guilherme Guimarães - Todos direitos reservados.</p>
-
+        </div>
     </footer>
+
+
+  
 
     
 </body>
