@@ -1,0 +1,478 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+/* sessao about - SOBRE*/
+.about{
+    background-color:  #006B92;
+    overflow: hidden;
+    color:  #140b0bd7;
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 34px 14px 64px 14px;
+
+    img{
+       max-width: 570px;
+    }
+}
+
+
+.about-content div{
+  flex: 1;  
+}
+
+.about-description{
+    h2{
+        font-size: 29px;
+        margin-bottom: 24px;
+         text-align: center;
+         color: #120808;
+    }
+
+    p{
+        margin-bottom: 14px;
+        line-height: 150%;
+        color: #F5F5F5;
+    
+    }
+
+    strong{
+        color: #120808;
+
+    }
+}
+
+/* fim sessao about - SOBRE*/
+
+
+
+
+
+/*  sessao disciplinas */
+.disciplinas {
+    background-color: #F5F5F5;
+    color: #120808;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 14px;
+}
+
+.disciplinas-content h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.disciplinas-content p{
+   line-height: 150%;
+   margin-bottom: 14px;
+   text-align: center;
+   max-width: 780px; 
+}
+
+.haircuts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0 44px 34px 44px;
+}
+
+.haircut{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color:  #F5F5F5;
+    border-radius: 8px;
+    box-shadow: 0px -1px 17px -4px rgba(0,0,0, 0.45);
+
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        max-width: 300px;
+        transition: transform 0.2s;
+    }
+}
+
+.haircut img:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.haircut-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: #F5F5F5;
+    z-index: 99;
+}
+
+.haircut-info button {
+    color: #F5F5F5;
+    background-color: #FF3131;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 0;
+    cursor: default;
+}
+
+
+/* responsividade adapdanddo em coluna as fotos  */
+@media screen and (max-width: 768px) {
+    .haircuts{
+        flex-direction: column;
+    }
+
+    .haircut img{
+        max-width: 420px;
+    }
+    
+}
+/* //fim Sessao - disciplinas*/
+
+
+
+
+
+
+/*  sessao Carreiras */
+.carreiras {
+    background-color: #5AC8BD;
+    color: #120808;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 14px;
+}
+
+.carreiras-content h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.carreiras-content p{
+   line-height: 150%;
+   margin-bottom: 14px;
+   text-align: center;
+   max-width: 780px; 
+}
+
+.haircuts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0 44px 34px 44px;
+}
+
+.haircut{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color:  #F5F5F5;
+    border-radius: 8px;
+    box-shadow: 0px -1px 17px -4px rgba(0,0,0, 0.45);
+
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        max-width: 300px;
+        transition: transform 0.2s;
+    }
+}
+
+.haircut img:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.haircut-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: #F5F5F5;
+    z-index: 99;
+}
+
+.haircut-info button {
+    color: #F5F5F5;
+    background-color: #FF3131;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 0;
+    cursor: default;
+}
+
+
+/* responsividade adapdanddo em coluna as fotos  */
+@media screen and (max-width: 768px) {
+    .haircuts{
+        flex-direction: column;
+    }
+
+    .haircut img{
+        max-width: 420px;
+    }
+    
+}
+/* //fim Sessao - carreiras*/
+
+
+
+
+
+/* sessao Empresa Junior*/
+.empresa{
+    background-color:  #fff;
+    overflow: hidden;
+    color:  #190808;
+}
+
+
+.empresa-content {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 14px;
+    padding: 135px 14px 64px 14px;
+
+    img{
+       max-width: 350px;
+    }
+}
+
+
+.empresa-content div{
+  flex: 1;  
+}
+
+.empresa-description{
+    h2{
+        font-size: 29px;
+        margin-bottom: 24px;
+         text-align: left;
+    }
+
+    p{
+        margin-bottom: 14px;
+        line-height: 150%;
+         text-align: right;
+
+    
+
+
+    }
+}
+
+.texto-direita {
+  text-align: right;
+}
+
+/* fim sessao  Empresa Junior*/
+
+
+
+/* sessao contatos*/
+.contatos{
+    background-color:  #FF3131;
+    overflow: hidden;
+    color:  #140b0bd7;
+}
+
+
+.contatos-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 34px 14px 64px 14px;
+
+    img{
+       max-width: 570px;
+    }
+}
+
+
+.contatos-content div{
+  flex: 1;  
+}
+
+.contatos-description{
+    h2{
+        font-size: 29px;
+        margin-bottom: 24px;
+         text-align: center;
+         color: #120808;
+    }
+
+    p{
+        margin-bottom: 14px;
+        line-height: 150%;
+        color: #F5F5F5;
+    
+    }
+
+    strong{
+        color: #120808;
+
+    }
+}
+
+/* fim sessao Contatos*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inicio Footer*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0;
+    gap: 24px;
+    color: #5AC8BD;
+
+   
+}
+
+ 
+    p{
+        text-align: justify;
+        margin-top: 20px;
+         color: #172120;
+
+    }
+
+
+.footer-icons {
+    display: flex;
+    gap: 14px;
+    color: #32c145;
+}
+
+
+
+/* //logo do tsi no rodape*/
+.footer-logo img  {
+  max-width: 150px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+/* //efeito nos icones de redes sociais de  cor vermelha e infinido pulo*/
+
+.footer-icons a:hover{
+    i{
+        animation: translateY 0.8s infinite alternate;
+        color: #FF3131;
+    }
+
+}
+
+@keyframes translateY {
+    from{
+        transform: translateY(0) scale(1);
+    }
+    to{
+        transform: translateY(-8px) scale(1.1);
+    }
+}
+
+/* ///fim Footer*/
+
+

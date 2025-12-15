@@ -1,2 +1,26 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 @import url(/css/navbar.css);
+@import url(/css/layout.css);
+
+
+
+button{
+  font-family: 'Sora' , sans-serif;
+  cursor: pointer;
+
+}
+
+svg{
+  width: 100%;
+}
+
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
