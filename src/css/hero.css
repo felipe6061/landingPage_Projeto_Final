@@ -1,50 +1,50 @@
 .hero {
-  width: 100%;
+    width: 100%;
 }
 
 /* sessão hero */
 .hero {
-  background-color: #fff;
-  color: #140b0bd7;
-  padding: 80px 0;
-  margin-bottom: 135px;
+    background-color: #fff;
+    color: #140b0bd7;
+    padding: 80px 0;
+    margin-bottom: 135px;
 }
 
 /* container do hero */
 .hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 /* texto */
 .hero-description {
-  max-width: 500px;
+    max-width: 500px;
 }
 
 .hero-description h2 {
-  margin-left: 40px;
-  font-size: 32px;
-  margin-bottom: 16px;
-  color: #120808;
+    margin-left: 40px;
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #120808;
 }
 
 .hero-description p {
-  margin-left: 40px;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #0e0a0a;
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0e0a0a;
 }
 
 /* logo */
 .hero-logo {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero-logo img {
-  margin-right: 140px;
-  max-width: 420px;
-  width: 100%;
+    margin-right: 140px;
+    max-width: 420px;
+    width: 100%;
 }

@@ -295,11 +295,8 @@
         
         margin-bottom: 14px;
         line-height: 150%;
-         text-align: justify;
-
-        
+         text-align: justify;      
     }
-
 
 
 }
@@ -309,116 +306,107 @@
 
     }
 
-.texto-direita {
-  text-align: justify;
+  .texto-direita {
+       text-align: justify;
+
+
 }
 
 /* fim sessao  Empresa Junior*/
 
 
 
-/* sessao contatos*/
-.contatos{
-    background-color:  #FF3131;
-    overflow: hidden;
-    color:  #140b0bd7;
-}
 
-
-.contatos-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    padding: 34px 14px 64px 14px;
-
-    img{
-       max-width: 570px;
+/* inicio sessao contatos */
+    .contatos {
+        background-color: #FF3131;
+        padding: 80px 0;
+        color: #ffffff;
     }
-}
 
+    /* container */
+    .contatos-content {
+        max-width: 1200px;
+        margin: 0 auto;    
+        padding: 0 40px; 
+        display: flex;
+        gap: 60px;
+        align-items: flex-start;
+    }
 
-.contatos-content div{
-  flex: 1;  
-}
+    /* coluna esquerda */
+    .contatos-info {
+        flex: 1;
+    }
 
-.contatos-description{
-    h2{
-        font-size: 29px;
+    .contatos-info h2 {
+        font-size: 32px;
         margin-bottom: 24px;
-         text-align: center;
-         color: #120808;
     }
 
-    p{
+    .contatos-info p {
         margin-bottom: 14px;
-        line-height: 150%;
-        color: #F5F5F5;
-    
+        line-height: 1.6;
     }
 
-    strong{
-        color: #120808;
 
+
+    .contatos-info strong {
+        color:  #ccc;
     }
-}
 
-/* fim sessao Contatos*/
+    /* coluna direita */
+    .contatos-form {
+        flex: 1;
+    }
 
+    .contatos-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
 
+    .contatos-form label {
+        font-size: 14px;
+    }
 
+    .contatos-form input,
+        .contatos-form textarea {
+        padding: 10px;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+    }
 
+    .contatos-form textarea {
+        min-height: 120px;
+        resize: none;
+    }
 
+    /* botao */
+    .form-buttons {
+        display: flex;
+        gap: 12px;
+        margin-top: 10px;
+    }
 
+    .btn-enviar {
+        background-color: #333;
+        color: #fff;
+        padding: 8px 18px;
+        border: none;
+        cursor: pointer;
+    }
 
+    .btn-cancelar {
+        background-color: #ccc;
+        color: #000;
+        padding: 8px 18px;
+        border: none;
+        cursor: pointer;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* fim sessao contatos */
 
 
 
