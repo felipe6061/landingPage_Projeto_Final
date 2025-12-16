@@ -317,45 +317,45 @@
     }
 
 
-    /* botapo */
-        .button-contact {
-        display: inline-block;
-        margin-top: 28px;
-        padding: 14px 28px;
-        color: #0c0404;
-        background-color: #1ab4d0;
-        border: 0;
-        font-size: 18px;
-        font-weight: 600;
-        text-align: center;
-        margin-left: 15%;
-    }
+/* botapo */
+.button-contact {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 14px 28px;
+  color: #0c0404;
+  background-color: #1ab4d0;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 15%;
+}
 
-    .button-contact:hover {
-        animation: scaleButton 0.8s alternate infinite;
-    }
+.button-contact:hover {
+  animation: scaleButton 0.8s alternate infinite;
+}
 
-    @keyframes scaleButton {
-        from {
-            transform: scale(1);
-    }
-        to {
-            transform: scale(1.07);
-    }
-    }
+@keyframes scaleButton {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
 
-    /* responsividade mobile */
-    @media (max-width: 900px) {
-    .empresa-content {
-        flex-direction: column;
-        text-align: center;
-    }
+/* Responsividade */
+@media (max-width: 900px) {
+  .empresa-content {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .empresa-texto p {
-        text-align: justify;
-     }
-    }
-/* fim sessao empresa junior */
+  .empresa-texto p {
+    text-align: justify;
+  }
+}
+/* fim sessao Empresa Junior */
 
 
 

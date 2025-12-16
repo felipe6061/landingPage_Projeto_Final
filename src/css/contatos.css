@@ -1,0 +1,167 @@
+/* sessao contatos*/
+#contatos {
+    background-color: #FF3131;
+    padding: 32px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 320px;
+
+    #contacts_container {
+        width: 50%;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 400;
+            color: rgb(255, 255, 255);
+            width: 80%;
+        }
+
+        #cards_container {
+
+            display: flex;
+            flex-direction: column;
+
+            background-color: #ED2B2B;
+            padding: 18px 12px;
+            border-radius: 8px;
+
+            p {
+                margin: 0;
+                font-size: 1rem;
+            }
+
+            p strong {
+                font-size: 1.1rem;
+                display: block;
+                margin-bottom: 8px;
+            }
+        }
+
+        #cards_container_info {
+            margin-top: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            .contact_card {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+                padding: 18px 12px;
+                text-decoration: none;
+                background-color: #ED2B2B;
+                border-radius: 8px;
+                color: white;
+
+                .card-icon {
+                    font-size: 1.3rem;
+                    color: white;
+                    width: 30px;
+                    text-align: center;
+                }
+
+                .card-infos {
+                    p {
+                        margin: 0;
+                        font-weight: bold;
+                        font-size: 0.9rem;
+                        color: white;
+                    }
+
+                    span {
+                        font-size: 0.85rem;
+                        color: rgba(255, 255, 255, 0.9);
+                    }
+                }
+            }
+        }
+    }
+
+    #contatos-form-container {
+        width: 50%;
+        background-color: #ffffff;
+        padding: 24px;
+        max-width: 800px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    #contatos-form-container h2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #000;
+        margin-top: 8px;
+        margin-bottom: 20px;
+
+    }
+
+
+    #contatos-form-container form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    #contatos-form-container form .input-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #contatos-form-container form .input-group:nth-child(3),
+    #contatos-form-container form .input-group:nth-child(4) {
+        grid-column: 1 / 3;
+    }
+}
+
+#contact_form {
+    label {
+        font-size: 0.9rem;
+        color: #475569;
+        font-weight: 500;
+
+    }
+
+    input,
+    textarea {
+        padding: 12px;
+        border: 1px solid;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        outline: none;
+        resize: none;
+
+        &:focus {
+            outline: 1px solid rgb(251, 93, 93);
+
+        }
+
+        
+    }
+
+     .button {  /* ← AGORA .button está NO NÍVEL CORRETO */
+        grid-column: 1 / 3;
+        padding: 14px 20px;
+        background-color: #00a5d7;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: #00a5d7aa;
+    }
+}  
