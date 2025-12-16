@@ -6,7 +6,7 @@
 }
 
 .footer-container {
-    max-width: 1600px;
+    max-width: auto;
     margin: 0 auto;
     padding: 1.5rem;
     background: #00a3d7;
