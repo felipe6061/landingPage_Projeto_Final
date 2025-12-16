@@ -62,7 +62,7 @@
 
     .course-info p {
         margin-bottom: 16px;   
-        line-height: 1.7;      
+        line-height: 1.5;      
         text-align: justify;
     }
 
@@ -257,62 +257,106 @@
 
 
 
-
-/* sessao Empresa Junior*/
-.empresa{
-    background-color:  #fff;
-    overflow: hidden;
-    color:  #190808;
-}
-
-
-.empresa-content {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    gap: 14px;
-    padding: 135px 14px 64px 14px;
-
-    img{
-       max-width: 350px;
-    }
-}
-
-
-.empresa-content div{
-  flex: 1;  
-}
-
-.empresa-description{
-
-    h2{
-        font-size: 29px;
-        margin-bottom: 24px;
-         text-align: left;
+/* sessao Empresa Junior */
+    .empresa {
+        background-color: #fff;
+        color: #190808;
     }
 
-    p{
-        
-        margin-bottom: 14px;
+    .empresa-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        padding: 120px 14px 80px 14px;
+    }
+
+    /* Logo */
+    .empresa-logo img {
+        max-width: 320px;
+        width: 100%;
+        margin-left: -30%;
+    }
+
+    /* Texto */
+    .empresa-text {
+        max-width: 600px;
+    }
+
+    .empresa-text h2 {
+        font-size: 36px;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .empresa-texto p {
+        margin-bottom: 18px;
         line-height: 150%;
-         text-align: justify;      
+        text-align: justify;
+    
     }
 
 
-}
+    .empresa-info {
+        max-width: 800px;      
+        margin: 0 auto;        
+        padding: 0 20px;      
+    }
 
-  strong{
+    .empresa-info p {
+        margin-bottom: 16px;   
+        line-height: 1.4;      
+        text-align: justify;
+    }
+
+
+
+
+    strong {
         color: #1ab4d0;
-
     }
 
-  .texto-direita {
-       text-align: justify;
 
+    /* botapo */
+        .button-contact {
+        display: inline-block;
+        margin-top: 28px;
+        padding: 14px 28px;
+        color: #0c0404;
+        background-color: #1ab4d0;
+        border: 0;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 15%;
+    }
 
-}
+    .button-contact:hover {
+        animation: scaleButton 0.8s alternate infinite;
+    }
 
-/* fim sessao  Empresa Junior*/
+    @keyframes scaleButton {
+        from {
+            transform: scale(1);
+    }
+        to {
+            transform: scale(1.07);
+    }
+    }
+
+    /* responsividade mobile */
+    @media (max-width: 900px) {
+    .empresa-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .empresa-texto p {
+        text-align: justify;
+     }
+    }
+/* fim sessao empresa junior */
+
 
 
 
