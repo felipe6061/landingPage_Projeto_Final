@@ -18,7 +18,7 @@ header {
 }
 
 .logo {
-  height: 50px;
+  height: 80px;
   cursor: pointer;
 }
 
@@ -33,6 +33,7 @@ header {
   color: #6b7280;
   font-style: normal;
   transition: color 0.3s;
+  font-size: larger;
 }
 
 .nav-item a:hover {
