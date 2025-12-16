@@ -31,7 +31,8 @@
 }
 
 .about-description{
-    h2{        
+    h2{   
+        text-transform: uppercase;     
         font-size: 29px;
         margin-bottom: 24px;
          text-align: center;
@@ -67,6 +68,18 @@
 
 }
 
+/* Responsividade */
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-texto p {
+    text-align: justify;
+  }
+}
+
 /* fim sessao about - SOBRE*/
 
 
@@ -98,7 +111,7 @@
    max-width: 780px; 
 }
 
-.haircuts {
+.galeria-disciplinas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +119,7 @@
     padding: 0 44px 34px 44px;
 }
 
-.haircut{
+.foto-disciplinas {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -123,40 +136,96 @@
     }
 }
 
-.haircut img:hover{
-    transform: scale(1.2);
-    z-index: 1;
-}
+    .foto-disciplinas img:hover{
+        transform: scale(1.2);
+        z-index: 1;
+    }
 
-.haircut-info {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 14px;
-    background-color: #F5F5F5;
-    z-index: 99;
-}
+    .foto-disciplinas-info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+        background-color: #F5F5F5;
+        z-index: 99;
+        text-align: center;
 
-.haircut-info button {
-    color: #F5F5F5;
-    background-color: #FF3131;
-    padding: 4px 8px;
-    border-radius: 4px;
-    border: 0;
-    cursor: default;
-}
+    }
+
+    .disciplinas-info {
+        max-width: 900px;      
+        margin: 0 auto;        
+        padding: 0 10px;      
+    }
+
+    .disciplinas-info p {
+        margin-bottom: 40px;   
+        line-height: 1.4;      
+        text-align: justify;
+    }
 
 
+    .disciplinas strong{
+        color: #006B92;
+
+    }
+
+
+
+ /* botapo */
+    .button-ppc {
+        display: inline-block;
+        margin-top: 28px;
+        padding: 14px 28px;
+        color: #0c0404;
+        background-color: #1ab4d0;
+        border: 0;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    .button-ppc:hover {
+     animation: scaleButton 0.8s alternate infinite;
+    }
+
+    @keyframes scaleButton {
+        from {
+            transform: scale(1);
+    }
+    to {
+        transform: scale(1.07);
+    }
+    }
+
+ 
 /* responsividade adapdanddo em coluna as fotos  */
 @media screen and (max-width: 768px) {
-    .haircuts{
+    .galeria-disciplinas{
         flex-direction: column;
     }
 
-    .haircut img{
-        max-width: 420px;
-    }
     
+   .foto-disciplinas img{
+        max-width: 320px;
+    }  
+
+    
+   .disciplinas-content {
+        flex-direction: column;
+        text-align: center;
+  }
+
+
+   .disciplinas-texto p {
+        text-align: justify;
+  }
+
+   .button-ppc {
+        flex-direction: column;
+  }
+
 }
 /* //fim Sessao - disciplinas*/
 
@@ -227,16 +296,10 @@
     padding: 14px;
     background-color: #F5F5F5;
     z-index: 99;
+    text-align: center;
+
 }
 
-.haircut-info button {
-    color: #F5F5F5;
-    background-color: #FF3131;
-    padding: 4px 8px;
-    border-radius: 4px;
-    border: 0;
-    cursor: default;
-}
 
 
 /* responsividade adapdanddo em coluna as fotos  */
@@ -276,12 +339,13 @@
         margin-left: -30%;
     }
 
-    /* Texto */
+  
     .empresa-text {
         max-width: 600px;
     }
 
     .empresa-text h2 {
+        text-transform: uppercase;
         font-size: 36px;
         margin-bottom: 32px;
         text-align: center;
@@ -315,43 +379,43 @@
     }
 
 
-/* botapo */
-.button-contact {
-  display: inline-block;
-  margin-top: 28px;
-  padding: 14px 28px;
-  color: #0c0404;
-  background-color: #1ab4d0;
-  border: 0;
-  font-size: 18px;
-  font-weight: 600;
-  text-align: center;
-  margin-left: 15%;
-}
+ /* botapo */
+    .button-contact {
+        display: inline-block;
+        margin-top: 28px;
+        padding: 14px 28px;
+        color: #0c0404;
+        background-color: #1ab4d0;
+        border: 0;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 15%;
+    }
 
-.button-contact:hover {
-  animation: scaleButton 0.8s alternate infinite;
-}
+    .button-contact:hover {
+     animation: scaleButton 0.8s alternate infinite;
+    }
 
-@keyframes scaleButton {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.07);
-  }
-}
+    @keyframes scaleButton {
+        from {
+            transform: scale(1);
+    }
+    to {
+        transform: scale(1.07);
+    }
+    }
 
-/* Responsividade */
-@media (max-width: 900px) {
-  .empresa-content {
-    flex-direction: column;
-    text-align: center;
-  }
+    /* Responsividade */
+    @media (max-width: 900px) {
+    .empresa-content {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .empresa-texto p {
-    text-align: justify;
-  }
+    .empresa-texto p {
+        text-align: justify;
+    }
 }
 /* fim sessao Empresa Junior */
 

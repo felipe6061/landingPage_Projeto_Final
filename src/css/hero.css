@@ -24,6 +24,7 @@
 }
 
 .hero-description h2 {
+    text-transform: uppercase;
     margin-left: 40px;
     font-size: 32px;
     margin-bottom: 16px;
@@ -48,3 +49,19 @@
     max-width: 420px;
     width: 100%;
 }
+
+
+
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-texto p {
+    text-align: justify;
+  }
+}
+   
