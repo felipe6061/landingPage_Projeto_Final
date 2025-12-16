@@ -7,7 +7,7 @@
 }
 
 
-/* sessao hero*/
+/* sessao SOBRE*/
 .about{
     background-color:  #006B92;
     overflow: hidden;
@@ -22,9 +22,7 @@
     gap: 14px;
     padding: 34px 14px 64px 14px;
 
-    img{
-       max-width: 570px;
-    }
+   
 }
 
 
@@ -366,6 +364,9 @@
         background-color: #FF3131;
         padding: 80px 0;
         color: #ffffff;
+      
+
+
     }
 
     /* container */
@@ -376,6 +377,8 @@
         display: flex;
         gap: 60px;
         align-items: flex-start;
+        margin-top: 5%;
+        margin-bottom: 70px;
     }
 
     /* coluna esquerda */
@@ -450,9 +453,36 @@
         cursor: pointer;
     }
 
-    /* fim sessao contatos */
 
 
 
+        
+    .btn-enviar, 
+    .btn-cancelar:hover {
+        animation: scaleButton 0.8s alternate infinite;
+    }
+
+    @keyframes scaleButton {
+        from {
+            transform: scale(1);
+    }
+        to {
+            transform: scale(1.07);
+     }
+    }
 
 
+    /* Responsividade */
+    @media (max-width: 780px) {
+    .contatos-content {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .contatos-texto p {
+        text-align: justify;
+    }
+
+
+    }
+/* fim sessao contatos */
