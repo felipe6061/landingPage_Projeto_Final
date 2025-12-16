@@ -206,7 +206,7 @@
         flex-direction: column;
     }
 
-    
+
    .foto-disciplinas img{
         max-width: 320px;
     }  
@@ -245,21 +245,28 @@
     padding: 54px 14px;
 }
 
+
+
 .carreiras-content h2{
     text-transform: uppercase;
     text-align: center;
     font-size: 32px;
     margin-bottom: 14px;
+    color: #000;
 }
 
 .carreiras-content p{
    line-height: 150%;
    margin-bottom: 14px;
    text-align: center;
-   max-width: 780px; 
+   max-width: 780px;
+    
+   
 }
 
-.haircuts {
+
+
+.galeria-carreiras {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,7 +274,7 @@
     padding: 0 44px 34px 44px;
 }
 
-.haircut{
+.foto-carreiras{
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -284,35 +291,115 @@
     }
 }
 
-.haircut img:hover{
-    transform: scale(1.2);
-    z-index: 1;
+    .foto-carreiras img:hover{
+        transform: scale(1.2);
+        z-index: 1;
+    }
+
+    .foto-carreiras-info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+        background-color: #F5F5F5;
+        z-index: 99;
+        text-align: center ;
+              
 }
 
-.haircut-info {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 14px;
-    background-color: #F5F5F5;
-    z-index: 99;
-    text-align: center;
 
-}
+    .foto-carreiras-info p{
+        color: #000;    
+
+    }   
+    
+    .foto-carreiras-info strong{
+        color: #000;
+        
+    }
+  
+
+    .carreiras-info {
+        max-width: 900px;      
+        margin: 0 auto;        
+        padding: 0 10px;
+        color: #F5F5F5;
+              
+    }
+
+    .carreiras-info p {
+        margin-bottom: 40px;   
+        line-height: 1.4;      
+        text-align: justify;
+        color: #F5F5F5;
+    }
 
 
+    .carreiras {
+        color: #F5F5F5;
+
+    }
+ 
+
+ /* botapo */
+    .button-carreira {
+        display: inline-block;
+        margin-top: 28px;
+        padding: 14px 28px;
+        color: #0c0404;
+        background-color: #F5F5F5;
+        border: 0;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    .button-carreira:hover {
+     animation: scaleButton 0.8s alternate infinite;
+    }
+
+    
+    @keyframes scaleButton {
+        from {
+            transform: scale(1);
+    }
+    to {
+        transform: scale(1.07);
+    }
+    }
+
+ 
 
 /* responsividade adapdanddo em coluna as fotos  */
 @media screen and (max-width: 768px) {
-    .haircuts{
+    .galeria-carreiras{
         flex-direction: column;
     }
 
-    .haircut img{
-        max-width: 420px;
-    }
+
+   .foto-carreiras img{
+        max-width: 320px;
+    }  
+
     
+   .carreiras-content {
+        flex-direction: column;
+        text-align: center;
+  }
+
+
+   .carreiras-info p {
+        text-align: justify;
+  }
+
+   .button-carreiras {
+        flex-direction: column;
+  }
+
 }
+
+
 /* //fim Sessao - carreiras*/
 
 
