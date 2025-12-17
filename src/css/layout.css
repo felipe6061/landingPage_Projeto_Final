@@ -141,6 +141,15 @@
         z-index: 1;
     }
 
+
+
+    .foto-disciplinas.hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+
+
     .foto-disciplinas-info {
         width: 100%;
         display: flex;
@@ -295,6 +304,14 @@
         transform: scale(1.2);
         z-index: 1;
     }
+
+
+
+    .foto-carreiras.hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
 
     .foto-carreiras-info {
         width: 100%;
@@ -623,6 +640,22 @@
             transform: scale(1.07);
      }
     }
+
+
+    input.erro, textarea.erro {
+        border: 2px solid #e74c3c;
+    }
+
+    input.sucesso, textarea.sucesso {
+        border: 2px solid #2ecc71;
+    }
+
+    .mensagem {
+        color: #e74c3c;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
 
 
     /* Responsividade */

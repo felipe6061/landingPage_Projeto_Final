@@ -164,4 +164,19 @@
     .button:hover {
         background-color: #00a5d7aa;
     }
+
+    input.erro, textarea.erro {
+        border: 2px solid #e74c3c;
+    }
+
+    input.sucesso, textarea.sucesso {
+        border: 2px solid #2ecc71;
+    }
+
+    .mensagem {
+        color: #e74c3c;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
 }  
