@@ -161,22 +161,24 @@
         transition: background-color 0.3s ease;
     }
 
-    .button:hover {
-        background-color: #00a5d7aa;
-    }
 
-    input.erro, textarea.erro {
-        border: 2px solid #e74c3c;
-    }
+    
+        .button:hover {
+            background-color: #00a5d7aa;
+        }
 
-    input.sucesso, textarea.sucesso {
-        border: 2px solid #2ecc71;
-    }
+        input.erro, textarea.erro {
+            border: 2px solid #e74c3c;
+        }
 
-    .mensagem {
-        color: #e74c3c;
-        font-size: 14px;
-        margin-top: 5px;
-    }
+        input.sucesso, textarea.sucesso {
+            border: 2px solid #2ecc71;
+        }
+
+        .mensagem {
+            color: #e74c3c;
+            font-size: 14px;
+            margin-top: 5px;
+        }
 
 }  
