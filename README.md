@@ -84,9 +84,9 @@ O site apresenta informações oficiais do curso de TSI, como:
 │       └── validate.js        ← Validação de formulário
 │
 └── README.md                  ← Apresentação do projeto
----
+```
 
----
+```
 
 ## 🎨 Arquitetura de Estilos (CSS Modular)
 
@@ -100,9 +100,9 @@ O arquivo `style.css` funciona como **arquivo principal**, importando os demais 
 @import url(/src/css/contatos.css);
 @import url(/src/css/footer.css);
 
----
+```
 
----
+```
 ## ⚙️ JavaScript — Organização Funcional
 
 Cada arquivo JavaScript possui uma responsabilidade clara:
@@ -114,13 +114,13 @@ Cada arquivo JavaScript possui uma responsabilidade clara:
 
 Essa separação facilita manutenção, testes e explicação do site.
 
----
+```
 
----
+```
 ## 👨‍💻 Autores
 
 **Felipe Ladeira**
 **Guilherme Ferreira**
 
 Projeto desenvolvido para fins **educacionais**, na com foco na apresentação do curso **Tecnologia em Sistemas para Internet (TSI)**.
----
+```
