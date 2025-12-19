@@ -4,7 +4,7 @@
 # ✅ Site TSI-IFB — Tecnologia em Sistemas para Internet
 
 ---
-Website institucional e responsivo desenvolvido para apresentação do **Curso Superior de Tecnologia em Sistemas para Internet (TSI)**.
+Landing Page institucional e responsiva, desenvolvido para apresentação do **Curso Superior de Tecnologia em Sistemas para Internet (TSI)**.
 O projeto utiliza **HTML5**, **CSS modularizado**, **JavaScript puro**, bibliotecas externas para animações e ícones, além de utilizar as práticas **Clear Code**.
 
 ---
@@ -119,5 +119,5 @@ Essa separação facilita manutenção, testes e explicação do site.
 **Felipe Ladeira**  
 **Guilherme Ferreira**
 
-Projeto desenvolvido para fins **educacionais**, com foco na apresentação do curso de**Tecnologia em Sistemas para Internet (TSI)**.
+Projeto desenvolvido para fins **educacionais**, com foco na apresentação do curso de **Tecnologia em Sistemas para Internet (TSI)**.
 ```
