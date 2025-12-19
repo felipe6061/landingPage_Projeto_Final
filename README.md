@@ -11,13 +11,13 @@ O projeto utiliza **HTML5**, **CSS modularizado**, **JavaScript puro**, bibliote
 
 ## 🧠 Tecnologias Utilizadas
 
-* **HTML5** — estrutura semântica
-* **CSS3** — estilização modular
-* **JavaScript (ES6)** — interatividade
-* **Google Fonts** — tipografia (Sora / Poppins)
-* **Font Awesome** — ícones
-* **AOS.js** — animações ao rolar a página
-* **jQuery** — suporte a interações específicas
+- * **HTML5** — estrutura semântica
+- * **CSS3** — estilização modular
+- * **JavaScript (ES6)** — interatividade
+- * **Google Fonts** — tipografia (Sora / Poppins)
+- * **Font Awesome** — ícones
+- * **AOS.js** — animações ao rolar a página
+- * **jQuery** — suporte a interações específicas
 
 ---
 ## 📋 Funcionalidades do Site
@@ -102,6 +102,7 @@ O arquivo `style.css` funciona como **arquivo principal**, importando os demais 
 
 ---
 
+---
 ## ⚙️ JavaScript — Organização Funcional
 
 Cada arquivo JavaScript possui uma responsabilidade clara:
@@ -115,10 +116,11 @@ Essa separação facilita manutenção, testes e explicação do site.
 
 ---
 
+---
 ## 👨‍💻 Autores
 
 **Felipe Ladeira**
 **Guilherme Ferreira**
 
-Projeto desenvolvido para fins **educacionais **, na com foco na apresentação do curso **Tecnologia em Sistemas para Internet (TSI)**.
-
+Projeto desenvolvido para fins **educacionais**, na com foco na apresentação do curso **Tecnologia em Sistemas para Internet (TSI)**.
+---
