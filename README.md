@@ -86,41 +86,38 @@ O site apresenta informações oficiais do curso de TSI, como:
 └── README.md                  ← Apresentação do projeto
 ```
 
-```
+
+
+
 
 ## 🎨 Arquitetura de Estilos (CSS Modular)
 
 O projeto utiliza **CSS modular**, com separação por responsabilidade.
 O arquivo `style.css` funciona como **arquivo principal**, importando os demais estilos:
 
-```css
-@import url(/src/css/navbar.css);
-@import url(/src/css/layout.css);
-@import url(/src/css/hero.css);
-@import url(/src/css/contatos.css);
-@import url(/src/css/footer.css);
+    @import url(/src/css/navbar.css);
+    @import url(/src/css/layout.css);
+    @import url(/src/css/hero.css);
+    @import url(/src/css/contatos.css);
+    @import url(/src/css/footer.css);
 
-```
 
-```
 ## ⚙️ JavaScript — Organização Funcional
 
 Cada arquivo JavaScript possui uma responsabilidade clara:
 
-* `script.js` → controle do menu mobile
-* `efeitosrolar.js` → animações e rolagem
-* `cards.js` → efeitos visuais nos cards
-* `validate.js` → validação de formulário
+- `script.js` → controle do menu mobile
+- `efeitosrolar.js` → animações e rolagem
+- `cards.js` → efeitos visuais nos cards
+- `validate.js` → validação de formulário
 
 Essa separação facilita manutenção, testes e explicação do site.
+---
 
-```
-
-```
 ## 👨‍💻 Autores
 
-**Felipe Ladeira**
+**Felipe Ladeira**  
 **Guilherme Ferreira**
 
-Projeto desenvolvido para fins **educacionais**, na com foco na apresentação do curso **Tecnologia em Sistemas para Internet (TSI)**.
+Projeto desenvolvido para fins **educacionais**, com foco na apresentação do curso de**Tecnologia em Sistemas para Internet (TSI)**.
 ```
