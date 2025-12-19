@@ -1,7 +1,7 @@
 
 ---
 
-# ✅ Site TSI-IFB — Tecnologia em Sistemas para Internet
+# Site TSI-IFB — Tecnologia em Sistemas para Internet
 
 ---
 Landing Page institucional e responsiva, desenvolvido para apresentação do **Curso Superior de Tecnologia em Sistemas para Internet (TSI)**.
@@ -9,7 +9,7 @@ O projeto utiliza **HTML5**, **CSS modularizado**, **JavaScript puro**, bibliote
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - * **HTML5** — estrutura semântica
 - * **CSS3** — estilização modular
@@ -20,21 +20,21 @@ O projeto utiliza **HTML5**, **CSS modularizado**, **JavaScript puro**, bibliote
 - * **jQuery** — suporte a interações específicas
 
 ---
-## 📋 Funcionalidades do Site
+## Funcionalidades do Site
 
-* ✅ Landing page que apresenta o curso TSI
-* ✅ Menu responsivo para desktop e mobile
-* ✅ Navegação por âncoras com scroll suave
-* ✅ Seções bem definidas
-* ✅ Galeria visual de disciplinas e carreiras
-* ✅ Validação básica de formulário com JavaScript
-* ✅ Links externos para PPC do curso e teste de carreira
-* ✅ Footer informativo com menu, autores e versão do projeto
-
----
+*  Landing page que apresenta o curso TSI
+*  Menu responsivo para desktop e mobile
+*  Navegação por âncoras com scroll suave
+*  Seções bem definidas
+*  Galeria visual de disciplinas e carreiras
+*  Validação básica de formulário com JavaScript
+*  Links externos para PPC do curso e teste de carreira
+*  Footer informativo com menu, autores e versão do projeto
 
 ---
-## 🌍 Hospedagem na Vercel
+
+---
+## Hospedagem na Vercel
 
 O site está hospedado na **Vercel**:
 
@@ -42,7 +42,7 @@ O site está hospedado na **Vercel**:
 
 ---
 
-## 🌍 Conteúdo do Site
+## Conteúdo do Site
 
 O site apresenta informações oficiais do curso de TSI, como:
 
@@ -59,7 +59,7 @@ O site apresenta informações oficiais do curso de TSI, como:
 
 ---
 
-## 🗂️ Estrutura de Pastas do Projeto
+## Estrutura de Pastas do Projeto
 
 ```
 / (raiz do projeto)
@@ -90,7 +90,7 @@ O site apresenta informações oficiais do curso de TSI, como:
 
 
 
-## 🎨 Arquitetura de Estilos (CSS Modular)
+## Arquitetura de Estilos (CSS Modular)
 
 O projeto utiliza **CSS modular**, com separação por responsabilidade.
 O arquivo `style.css` funciona como **arquivo principal**, importando os demais estilos:
@@ -102,7 +102,7 @@ O arquivo `style.css` funciona como **arquivo principal**, importando os demais 
     @import url(/src/css/footer.css);
 
 
-## ⚙️ JavaScript — Organização Funcional
+## JavaScript — Organização Funcional
 
 Cada arquivo JavaScript possui uma responsabilidade clara:
 
@@ -111,10 +111,10 @@ Cada arquivo JavaScript possui uma responsabilidade clara:
 - `cards.js` → efeitos visuais nos cards
 - `validate.js` → validação de formulário
 
-Essa separação facilita manutenção, testes e explicação do site.
+A separação facilita manutenção e testes do site.
 ---
 
-## 👨‍💻 Autores
+##  Autores
 
 **Felipe Ladeira**  
 **Guilherme Ferreira**
