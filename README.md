@@ -122,4 +122,3 @@ Essa separação facilita manutenção, testes e explicação do site.
 
 Projeto desenvolvido para fins **educacionais **, na com foco na apresentação do curso **Tecnologia em Sistemas para Internet (TSI)**.
 
----
