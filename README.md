@@ -84,7 +84,7 @@ O site apresenta informações oficiais do curso de TSI, como:
 │       └── validate.js        ← Validação de formulário
 │
 └── README.md                  ← Apresentação do projeto
-```
+---
 
 ---
 
